@@ -2,7 +2,7 @@ from openpyxl import Workbook
 from openpyxl.compat import range
 from openpyxl.cell import get_column_letter
 wb = Workbook()
-dest_filename = '我在测试.xlsx'
+dest_filename = '测试.xlsx'
 dest_filename1 = 'a分支修改——基于test_a.xlsx'
 ws1 = wb.active  # 第一个表
 ws1.title = "range names"  # 第一个表命名
